@@ -1,0 +1,51 @@
+
+body{
+    background-color: #a4a6ad;
+}
+
+#timer-watch{
+    margin-left: 38rem;
+   width: 20rem;
+   height: 20rem;
+   border: 2px solid  rgb(138, 104, 138);
+   border-radius: 50%;
+   background-color: rgb(59, 57, 59);
+}
+
+#timer-head{
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(3, 5, 11);
+    font-size: 50px;
+}
+
+#timer{
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: bisque;
+    font-style: initial;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+#buttons{
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+}
+
+#startBtn, #stopBtn, #resetBtn{
+    width: 4rem;
+    height: 2rem;
+    color: rgb(10, 10, 10);
+    background-color: rgb(22, 242, 132 );
+    border: none;
+    border-radius: 4%;
+    font-size: 15px;
+}
